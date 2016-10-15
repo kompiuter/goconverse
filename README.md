@@ -17,9 +17,9 @@ Executables can then be found under
 ## Server
 Start a new server instance with the following command: 
 
-<code>server.exe -n "ServerName" -p "Port" &</code>
+<code>server.exe -p "Port" &</code>
 
-You may enable verbose logging using the -v flag:
+You may enable verbose logging using the -v flag and/or a custom server name:
 
 <code>server.exe -v -n "ServerName" -p "Port" &</code>
 
